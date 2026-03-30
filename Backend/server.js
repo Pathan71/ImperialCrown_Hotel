@@ -16,8 +16,10 @@ import { stripeWebhooks } from './controllers/stripeWebhooks.js'
 
 const app = express()
 
-// app.use(cors())
-app.use(cors());
+app.use(cors({
+    origin: "https://cute-unicorn-3aebfd.netlify.app/",
+    credentials: true
+}));
 
 // Mongodb 
 connectDB()
