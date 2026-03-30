@@ -5,7 +5,7 @@ import StarRating from '../components/StarRating'
 import { useAppContext } from '../context/AppContext'
 import toast from 'react-hot-toast'
 
-const baseURL = "https://imperialcrowns.onrender.com"
+const baseURL = "https://imperialcrown-hotel.onrender.com"
 
 const RoomDetails = () => {
     const { id } = useParams()

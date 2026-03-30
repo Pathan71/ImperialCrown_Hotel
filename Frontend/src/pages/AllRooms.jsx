@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router-dom'
 import StarRating from '../components/StarRating'
 import { useAppContext } from '../context/AppContext'
 
-const baseURL = "https://imperialcrowns.onrender.com"
+const baseURL = "https://imperialcrown-hotel.onrender.com"
 
 const CheckBox = ({ label, selected = false, onChange = () => { } }) => {
     return (

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { assets } from '../assets/assets'
 
-const baseURL = "https://imperialcrowns.onrender.com"
+const baseURL = "https://imperialcrown-hotel.onrender.com"
 
 const HotelCard = ({room, index}) => {
 
