@@ -17,7 +17,7 @@ import { stripeWebhooks } from './controllers/stripeWebhooks.js'
 const app = express()
 
 app.use(cors({
-    origin: "https://cute-unicorn-3aebfd.netlify.app/",
+    origin: "https://cute-unicorn-3aebfd.netlify.app",
     credentials: true
 }));
 
